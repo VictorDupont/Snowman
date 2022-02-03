@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Snowman ♫</title>
+		<link type="text/css" rel="stylesheet" href="assets/main.css" media="screen" />
+	</head>
+	<body>
+		<audio>
+			<source src="assets/snowman.mp3" type="audio/mp3" />
+		</audio>
+		<section class="box">
+			<svg>
+				<linearGradient id="gradient">
+					<stop offset="0%" stop-color="red" />
+					<stop offset="50%" stop-color="blue" />
+					<stop offset="100%" stop-color="green" />
+				</linearGradient>
+				<circle class="circle progress" cx="250" cy="250" r="225"></circle>
+				<circle class="circle blur progress" cx="250" cy="250" r="225"></circle>
+				<circle class="circle backcircle" cx="250" cy="250" r="225"></circle>
+			</svg>
+			<div class="texts">
+				<span class="time">00:00</span>
+				<div class="lyric"></div>
+				<div class="play"></div>
+			</div>
+		</section>
+		<script src="assets/main.js"></script>
+	</body>
+</html>
